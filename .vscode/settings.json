@@ -1,0 +1,15 @@
+{
+	"cSpell.words": [
+		"showtimes"
+	],
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#e754c1",
+		"titleBar.inactiveBackground": "#e754c199",
+		"titleBar.activeForeground": "#15202b",
+		"titleBar.inactiveForeground": "#15202b99",
+		"statusBar.background": "#e754c1",
+		"statusBarItem.hoverBackground": "#e127b1",
+		"statusBar.foreground": "#15202b",
+		"tab.activeBorder": "#ed81d1"
+	}
+}

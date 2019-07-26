@@ -1,0 +1,27 @@
+{
+	"name": "movie-scraper-backend",
+	"version": "1.0.0",
+	"description": "Scrape showtimes from a local theatre and serve them via API.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon -r esm index.js --ignore *.json"
+	},
+	"keywords": [
+		"Cheerio",
+		"Nodejs",
+		"API"
+	],
+	"author": "Dan Todd",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"cheerio": "^1.0.0-rc.3",
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"lowdb": "^1.0.0",
+		"node-cron": "^2.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
+}

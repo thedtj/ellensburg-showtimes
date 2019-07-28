@@ -5,8 +5,7 @@ import './lib/cron'
 
 const app = express()
 
-app.get('/scrape', async (req, res, next) => {
-	console.log('hacking the mainframe')
+app.get('/', async (req, res, next) => {
 
 	const showtimesHTML = await getHTML(
 		'http://ellensburgmovies.com/gmc_html/gmc_html_showtimes.html'

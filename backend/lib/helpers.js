@@ -1,9 +1,8 @@
 import db from './db'
 
+// eslint-disable-next-line import/prefer-default-export
 export function updateDB(dbEntry, freshData) {
-	const refreshedAt = db.get(`${entry}[0].refreshed`).value()
-
-	console.log(dbEntry, freshData, refreshedAt)
+	const refreshedAt = db.get(`${dbEntry}[0].refreshed`).value()
 
 	db.get(`${dbEntry}`)
 		.remove({ refreshed: refreshedAt })

@@ -1,14 +1,16 @@
+/* eslint-disable func-names */
 import axios from 'axios'
 import cheerio from 'cheerio'
 import { updateDB } from './helpers'
-import * as fs from 'fs'
 
 async function getHTML(url) {
 	const { data: html } = await axios.get(url)
 	return html
 }
 
-async function getMovieInfo(html) {}
+async function getMovieInfo(html) {
+	// TODO: Get poster and synopsis
+}
 
 async function getShowtimes(html) {
 	const $ = cheerio.load(html)
@@ -22,17 +24,20 @@ async function getShowtimes(html) {
 
 		const cleanData = rawData.split('  ').filter((nonNull) => nonNull !== '')
 
-		const cleanTimes = cleanData
+		const chopThisData = cleanData
 
-		const title = cleanTimes.splice(0, 1)
-		const runningTime = cleanTimes.splice(-1, 1)
-		const rating = cleanTimes.splice(-1, 1)
+		const title = chopThisData.splice(0, 1)
+		const runningTime = chopThisData.splice(-1, 1)
+		const rating = chopThisData.splice(-1, 1)
+
+		// eslint-disable-next-line quotes
+		const showtimes = chopThisData.filter((time) => time.length > 1)
 
 		const movie = {
 			title: title[0],
 			runningTime: runningTime[0],
 			rating: rating[0],
-			showtimes: cleanTimes
+			showtimes
 		}
 
 		movies.push(movie)
@@ -44,8 +49,6 @@ async function getShowtimes(html) {
 
 	comingSoon.shift()
 
-	// console.log(movies)
-	// console.log(comingSoon)
 	return {
 		movies,
 		comingSoon
@@ -63,7 +66,6 @@ async function getDates(html) {
 		dates = data
 	})
 
-	// console.log(dates)
 	return dates
 }
 

@@ -8,4 +8,6 @@ TODO:
 
 [✔] Store to db
 
+[] Deploy api
+
 [] create PWA frontend

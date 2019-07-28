@@ -4,12 +4,16 @@
 	"description": "Scrape showtimes from a local theatre and serve them via API.",
 	"main": "index.js",
 	"scripts": {
+		"start": "node -r esm index.js",
 		"dev": "nodemon -r esm index.js --ignore *.json"
 	},
 	"keywords": [
 		"Cheerio",
 		"Nodejs",
-		"API"
+		"API",
+		"Express",
+		"Lowdb",
+		"Cron"
 	],
 	"author": "Dan Todd",
 	"license": "ISC",

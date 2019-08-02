@@ -1,13 +1,24 @@
 {
   "dates": [
     {
-      "freshData": "Friday, July 26 - Thursday, August 1, 2019",
-      "refreshed": 1564275000187
+      "freshData": "Friday, August 2 - Thursday, August 8, 2019",
+      "refreshed": 1564724160174
     }
   ],
   "movies": [
     {
       "freshData": [
+        {
+          "title": "HOBBS & SHAW",
+          "runningTime": "2hrs 17min",
+          "rating": "PG-13",
+          "showtimes": [
+            "1:15",
+            "4:00",
+            "6:40",
+            "9:20"
+          ]
+        },
         {
           "title": "ONCE UPON A TIME IN HOLLYWOOD",
           "runningTime": "2hrs 42min",
@@ -27,17 +38,6 @@
             "4:15",
             "6:45",
             "8:30"
-          ]
-        },
-        {
-          "title": "BIGGEST LITTLE FARM",
-          "runningTime": "1hr 32min",
-          "rating": "PG",
-          "showtimes": [
-            "2:15",
-            "4:30",
-            "7:00",
-            "9:00"
           ]
         },
         {
@@ -96,11 +96,11 @@
           ]
         },
         {
-          "title": "STUBER",
-          "runningTime": "1hr 34min",
-          "rating": "R",
+          "title": "BIGGEST LITTLE FARM",
+          "runningTime": "1hr 32min",
+          "rating": "PG",
           "showtimes": [
-            "2:20",
+            "2:15",
             "4:30"
           ]
         },
@@ -114,26 +114,38 @@
           ]
         }
       ],
-      "refreshed": 1564275000188
+      "refreshed": 1564724160175
     }
   ],
   "comingSoon": [
     {
       "freshData": [
         {
-          "title": "HOBBS & SHAW",
-          "runningTime": "Aug. 2",
-          "rating": "PG-13",
-          "showtimes": []
-        },
-        {
           "title": "DORA AND THE LOST CITY OF GOLD",
           "runningTime": "Aug. 9",
           "rating": "PG",
           "showtimes": []
+        },
+        {
+          "title": "KITCHEN",
+          "runningTime": "Aug. 9",
+          "rating": "R",
+          "showtimes": []
+        },
+        {
+          "title": "ANGRY BIRDS 2",
+          "runningTime": "Aug. 14",
+          "rating": "PG",
+          "showtimes": []
+        },
+        {
+          "title": "GOOD BOYS",
+          "runningTime": "Aug. 16",
+          "rating": "R",
+          "showtimes": []
         }
       ],
-      "refreshed": 1564275000189
+      "refreshed": 1564724160176
     }
   ]
 }

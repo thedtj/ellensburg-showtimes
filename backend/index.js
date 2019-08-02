@@ -5,7 +5,7 @@ import './lib/cron'
 
 const app = express()
 
-app.get('/', async (req, res, next) => {
+app.get('/api/v1', async (req, res, next) => {
 
 	const showtimesHTML = await getHTML(
 		'http://ellensburgmovies.com/gmc_html/gmc_html_showtimes.html'

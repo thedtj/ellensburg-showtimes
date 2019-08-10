@@ -1,6 +1,5 @@
 import express from 'express'
-import db from './lib/db'
-import { getHTML, getDates, getShowtimes, runCron } from './lib/scraper'
+import { getHTML, getDates, getShowtimes } from './lib/scraper'
 import './lib/cron'
 
 const app = express()

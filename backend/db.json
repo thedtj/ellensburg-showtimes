@@ -1,13 +1,46 @@
 {
   "dates": [
     {
-      "freshData": "Friday, August 2 - Thursday, August 8, 2019",
-      "refreshed": 1564724160174
+      "freshData": "Friday, August 9 - Tuesday, August 13, 2019",
+      "refreshed": 1565464140171
     }
   ],
   "movies": [
     {
       "freshData": [
+        {
+          "title": "DORA AND THE LOST CITY OF GOLD",
+          "runningTime": "1hr 42min",
+          "rating": "PG",
+          "showtimes": [
+            "2:00",
+            "4:15",
+            "6:30",
+            "8:45"
+          ]
+        },
+        {
+          "title": "SCARY STORIES TO TELL IN THE DARK",
+          "runningTime": "1hr 48min",
+          "rating": "PG-13",
+          "showtimes": [
+            "2:15",
+            "4:30",
+            "6:50",
+            "9:00"
+          ]
+        },
+        {
+          "title": "THE KITCHEN",
+          "runningTime": "1hr 43min",
+          "rating": "R",
+          "showtimes": [
+            "2:10",
+            "4:20",
+            "7:00",
+            "9:15"
+          ]
+        },
         {
           "title": "HOBBS & SHAW",
           "runningTime": "2hrs 17min",
@@ -30,18 +63,7 @@
           ]
         },
         {
-          "title": "ECHO IN THE CANYON",
-          "runningTime": "1hr 23min",
-          "rating": "PG-13",
-          "showtimes": [
-            "2:00",
-            "4:15",
-            "6:45",
-            "8:30"
-          ]
-        },
-        {
-          "title": "LION KING",
+          "title": "THE LION KING",
           "runningTime": "1hr 58min",
           "rating": "PG",
           "showtimes": [
@@ -67,8 +89,6 @@
           "runningTime": "1hr 57min",
           "rating": "PG-13",
           "showtimes": [
-            "1:45",
-            "4:20",
             "6:50",
             "9:20"
           ]
@@ -90,48 +110,16 @@
           "rating": "PG",
           "showtimes": [
             "1:30",
-            "4:00",
-            "6:30",
-            "9:00"
-          ]
-        },
-        {
-          "title": "BIGGEST LITTLE FARM",
-          "runningTime": "1hr 32min",
-          "rating": "PG",
-          "showtimes": [
-            "2:15",
-            "4:30"
-          ]
-        },
-        {
-          "title": "ANNABELLE COMES HOME",
-          "runningTime": "1hr 46min",
-          "rating": "R",
-          "showtimes": [
-            "7:00",
-            "9:15"
+            "4:00"
           ]
         }
       ],
-      "refreshed": 1564724160175
+      "refreshed": 1565464140172
     }
   ],
   "comingSoon": [
     {
       "freshData": [
-        {
-          "title": "DORA AND THE LOST CITY OF GOLD",
-          "runningTime": "Aug. 9",
-          "rating": "PG",
-          "showtimes": []
-        },
-        {
-          "title": "KITCHEN",
-          "runningTime": "Aug. 9",
-          "rating": "R",
-          "showtimes": []
-        },
         {
           "title": "ANGRY BIRDS 2",
           "runningTime": "Aug. 14",
@@ -145,7 +133,7 @@
           "showtimes": []
         }
       ],
-      "refreshed": 1564724160176
+      "refreshed": 1565464140173
     }
   ]
 }

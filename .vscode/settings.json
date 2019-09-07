@@ -1,7 +1,5 @@
 {
-	"cSpell.words": [
-		"showtimes"
-	],
+	"cSpell.words": ["showtimes"],
 	"workbench.colorCustomizations": {
 		"titleBar.activeBackground": "#e754c1",
 		"titleBar.inactiveBackground": "#e754c199",

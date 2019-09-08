@@ -1,65 +1,104 @@
 {
   "dates": [
     {
-      "freshData": "Friday, August 9 - Tuesday, August 13, 2019",
-      "refreshed": 1565464140171
+      "freshData": "Friday, September 6 - Thursday, September 12, 2019",
+      "refreshed": 1567904580316
     }
   ],
   "movies": [
     {
       "freshData": [
         {
-          "title": "DORA AND THE LOST CITY OF GOLD",
-          "runningTime": "1hr 42min",
+          "title": "OVERCOMER",
+          "runningTime": "1hr 59min",
+          "rating": "PG",
+          "showtimes": [
+            "1:45",
+            "4:10",
+            "6:45",
+            "9:10"
+          ]
+        },
+        {
+          "title": "THE FAREWELL",
+          "runningTime": "1hr 40min",
           "rating": "PG",
           "showtimes": [
             "2:00",
             "4:15",
-            "6:30",
-            "8:45"
+            "6:50",
+            "8:50"
           ]
         },
         {
-          "title": "SCARY STORIES TO TELL IN THE DARK",
-          "runningTime": "1hr 48min",
-          "rating": "PG-13",
+          "title": "READY OR NOT",
+          "runningTime": "1hr 36min",
+          "rating": "R",
           "showtimes": [
             "2:15",
             "4:30",
-            "6:50",
+            "7:00",
             "9:00"
           ]
         },
         {
-          "title": "THE KITCHEN",
-          "runningTime": "1hr 43min",
+          "title": "IT CHAPTER TWO",
+          "runningTime": "2hr 49min",
           "rating": "R",
           "showtimes": [
-            "2:10",
-            "4:20",
+            "1:15",
+            "4:30",
+            "7:45"
+          ]
+        },
+        {
+          "title": "SPIDER-MAN: FAR FROM HOME",
+          "runningTime": "2hr 13min",
+          "rating": "PG-13",
+          "showtimes": [
+            "Now Featuring Bonus Content",
+            "1:20",
+            "4:00"
+          ]
+        },
+        {
+          "title": "47 METERS DOWN: UNCAGED",
+          "runningTime": "1hr 30min",
+          "rating": "PG-13",
+          "showtimes": [
             "7:00",
             "9:15"
           ]
         },
         {
-          "title": "HOBBS & SHAW",
-          "runningTime": "2hrs 17min",
-          "rating": "PG-13",
+          "title": "ANGEL HAS FALLEN",
+          "runningTime": "2hr 01min",
+          "rating": "R",
           "showtimes": [
-            "1:15",
-            "4:00",
-            "6:40",
-            "9:20"
+            "1:45",
+            "4:15",
+            "6:45",
+            "9:15"
           ]
         },
         {
-          "title": "ONCE UPON A TIME IN HOLLYWOOD",
-          "runningTime": "2hrs 42min",
+          "title": "ART OF RACING IN THE RAIN",
+          "runningTime": "1hr 49min",
+          "rating": "PG",
+          "showtimes": [
+            "2:10",
+            "4:30"
+          ]
+        },
+        {
+          "title": "GOOD BOYS",
+          "runningTime": "1hr 30min",
           "rating": "R",
           "showtimes": [
-            "1:20",
+            "2:20",
             "4:20",
-            "7:30"
+            "7:00",
+            "9:00"
           ]
         },
         {
@@ -72,68 +111,42 @@
             "6:40",
             "9:00"
           ]
-        },
-        {
-          "title": "SPIDER-MAN: FAR FROM HOME",
-          "runningTime": "2hrs 10min",
-          "rating": "PG-13",
-          "showtimes": [
-            "1:20",
-            "4:00",
-            "6:30",
-            "9:10"
-          ]
-        },
-        {
-          "title": "YESTERDAY",
-          "runningTime": "1hr 57min",
-          "rating": "PG-13",
-          "showtimes": [
-            "6:50",
-            "9:20"
-          ]
-        },
-        {
-          "title": "TOY STORY 4",
-          "runningTime": "1hr 40min",
-          "rating": "G",
-          "showtimes": [
-            "2:00",
-            "4:15",
-            "6:30",
-            "8:45"
-          ]
-        },
-        {
-          "title": "ALADDIN",
-          "runningTime": "2hrs 08min",
-          "rating": "PG",
-          "showtimes": [
-            "1:30",
-            "4:00"
-          ]
         }
       ],
-      "refreshed": 1565464140172
+      "refreshed": 1567904580319
     }
   ],
   "comingSoon": [
     {
       "freshData": [
         {
-          "title": "ANGRY BIRDS 2",
-          "runningTime": "Aug. 14",
-          "rating": "PG",
+          "title": "Coming Soon:",
+          "runningTime": "(Subject to change)",
+          "rating": "Release Date",
+          "showtimes": [
+            "Rating"
+          ]
+        },
+        {
+          "title": "HUSTLERS",
+          "runningTime": "September 13",
+          "rating": "R",
           "showtimes": []
         },
         {
-          "title": "GOOD BOYS",
-          "runningTime": "Aug. 16",
+          "title": "RAMBO: LAST BLOOD",
+          "runningTime": "September 20",
           "rating": "R",
+          "showtimes": []
+        },
+        {
+          "title": "DOWNTON ABBEY",
+          "runningTime": "September 20",
+          "rating": "PG",
           "showtimes": []
         }
       ],
-      "refreshed": 1565464140173
+      "refreshed": 1567904580321
     }
   ]
 }

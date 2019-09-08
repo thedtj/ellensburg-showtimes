@@ -9,5 +9,6 @@
 		"statusBarItem.hoverBackground": "#e127b1",
 		"statusBar.foreground": "#15202b",
 		"tab.activeBorder": "#ed81d1"
-	}
+	},
+	"peacock.color": "#e754c1"
 }

@@ -2,7 +2,7 @@
   "dates": [
     {
       "freshData": "Friday, September 6 - Thursday, September 12, 2019",
-      "refreshed": 1567904580316
+      "refreshed": 1567908840333
     }
   ],
   "movies": [
@@ -113,7 +113,7 @@
           ]
         }
       ],
-      "refreshed": 1567904580319
+      "refreshed": 1567908840336
     }
   ],
   "comingSoon": [
@@ -146,7 +146,7 @@
           "showtimes": []
         }
       ],
-      "refreshed": 1567904580321
+      "refreshed": 1567908840338
     }
   ]
 }

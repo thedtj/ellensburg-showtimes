@@ -4,6 +4,7 @@ import './lib/cron'
 
 const app = express()
 
+// eslint-disable-next-line no-unused-vars
 app.get('/', async (req, res, next) => {
 
 	const showtimesHTML = await getHTML(
